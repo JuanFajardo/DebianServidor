@@ -120,70 +120,101 @@ Puerta de enlace (gateway).
 Servidor DNS.
 
 Indique un nombre único para el sistema y, si no tiene un dominio registrado, use algo como "casa.local" o "home.lan".
+
 ![home.lan](img/1_6.png)
 
 Configuración de usuarios y contraseñas
 Root: Configure una contraseña segura para el superusuario (root).
+
 ![home.lan](img/1_7.png)
 
 Usuario normal: Cree una cuenta de usuario estándar indicando:
+
 Nombre completo.
+
 ![home.lan](img/1_9.png)
 
+
 Nombre de usuario.
+
 ![home.lan](img/1_10.png)
 
+
 Contraseña.
+
 ![home.lan](img/1_11.png)
+
 
 Configuración de hora y zona horaria
 El instalador intentará sincronizar el reloj del sistema con servidores de tiempo. Seleccione su zona horaria para ajustar el reloj correctamente.
+
 ![home.lan](img/1_12.png)
+
 
 Particionamiento del disco duro
 El disco se organiza en particiones. Opte por el particionamiento guiado y elija la opción de Partición 
 /home separada para:
+
 ![home.lan](img/1_13.png)
 
 ![home.lan](img/1_15.png)
+
 
 |Particion| Contenido|
 |---------|----------|
 | /| Sistema.|
 | swap| (Intercambio)Memoria virtual.|
 | /home| Archivos de usuario.|
+
 ![home.lan](img/1_16.png)
 
+
 Las particiones se formatearán, eliminando todos los datos existentes.
+
 ![home.lan](img/1_17.png)
 
 
 Instalación del sistema base
 El instalador descargará e instalará paquetes esenciales para crear el sistema base.
+
 ![home.lan](img/1_18.png)
+
 ![home.lan](img/1_19.png)
+
 
 Se instalará y configurará el kernel de Linux.
 
 Configuración del gestor de paquetes "apt"
 Repositorios: Seleccione el repositorio geográficamente más cercano.
+
 ![home.lan](img/1_20.png)
+
 ![home.lan](img/1_21.png)
 
+
 Si utiliza un proxy, configure su dirección.
+
 ![home.lan](img/1_22.png)
 
+
 Apt verificará y descargará actualizaciones si están disponibles.
+
 ![home.lan](img/1_23.png)
+
 ![home.lan](img/1_24.png)
+
 
 Selección de software
 Para personalizar el sistema, desactive todas las configuraciones automáticas y seleccione únicamente las funcionalidades básicas.
+
 ![home.lan](img/1_25.png)
+
 
 Instalación del gestor de arranque "grub"
 Instale el gestor de arranque grub en el Master Boot Record (MBR) del disco.
+
 ![home.lan](img/1_27.png)
+
 ![home.lan](img/1_28.png)
 
 El instalador buscará otros sistemas operativos instalados y configurará el grub en el disco de arranque.
@@ -193,11 +224,15 @@ __Finalización de la instalación__
 Retire el CD-ROM de instalación y seleccione continuar para reiniciar el sistema.
 
 Si ve la pantalla de inicio de sesión, ¡felicitaciones! La instalación fue exitosa.
+
 ![home.lan](img/1_29.png)
+
 
 __Primer inicio__
 
 Inicie sesión con la cuenta creada.
+
 ![home.lan](img/1_30.png)
+
 
 El sistema Debian 12 'Bookworm', sólido y funcional, está listo para ser ampliado según sus necesidades.
