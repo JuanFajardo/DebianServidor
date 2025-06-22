@@ -1,8 +1,9 @@
 # 1. Instalación
 
-[1.0 Antes de Iniciar](#10-antes-de-iniciar)
+- __[1.0 Antes de Iniciar](#10-antes-de-iniciar)__
 
-[1.1 Guía de Instalación de Debian 12 'Bookworm'](#11-guia-de-instalacion-de-debian-12-bookworm)
+- __[1.1 Guía de Instalación de Debian 12 Bookworm](#11-guia-de-instalacion-de-debian-12-bookworm)__
+
 
 
 >No creo necesariamente que la instalación sea la única opción.
@@ -77,7 +78,7 @@ logout
 juanfajardo@potosi:~$
 ```
 
-## 1.1 Guía de Instalación de Debian 12 Bookworm
+## 1.1 Guia de Instalacion de Debian 12 Bookworm
 
 ### Inicio desde CD-ROM
 Inserte el CD-ROM de instalación de Debian en la unidad y reinicie el sistema.
