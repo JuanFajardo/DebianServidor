@@ -8,7 +8,8 @@ Basado en la pagina servidordebian.org
 
 [2. Configuración](2_configuracion.md)
 
-3. Servidor Intranet
+[3. Servidor Intranet](3_servidor_intranet.md)
+
 4. Servidor Internet
 5. Servidor de Correo
 6. Monitoreo
